@@ -16,7 +16,7 @@
     "url": "https://github.com/electron/asar/issues"
   },
   "scripts": {
-    "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
+    "test": "mocha --reporter spec"
   },
   "dependencies": {
     "chromium-pickle-js": "^0.2.0",
@@ -29,10 +29,8 @@
     "tmp": "0.0.28"
   },
   "devDependencies": {
-    "coffee-script": "^1.10.0",
     "grunt": "^0.4.1",
     "grunt-cli": "^0.1.13",
-    "grunt-contrib-coffee": "^0.13.0",
     "lodash": "^4.2.1",
     "mocha": "^2.0.1",
     "rimraf": "^2.5.1"
